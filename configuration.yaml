@@ -1,0 +1,44 @@
+homeassistant: false
+frontend: true
+permit_join: true
+mqtt:
+  base_topic: zigbee2mqtt
+  server: mqtt://mqtt
+serial:
+  port: /dev/ttyUSB0
+advanced:
+  network_key:
+    - 46
+    - 40
+    - 189
+    - 172
+    - 144
+    - 77
+    - 71
+    - 25
+    - 89
+    - 118
+    - 53
+    - 238
+    - 4
+    - 36
+    - 108
+    - 124
+  pan_id: 48542
+  ext_pan_id:
+    - 120
+    - 190
+    - 206
+    - 243
+    - 199
+    - 216
+    - 99
+    - 142
+  homeassistant_legacy_entity_attributes: false
+  legacy_api: false
+  legacy_availability_payload: false
+device_options:
+  legacy: false
+devices:
+  '0x001788010dbfc9b4':
+    friendly_name: air_quality_light
